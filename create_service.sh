@@ -28,7 +28,7 @@ WantedBy=multi-user.target
 ' | sudo -E tee /etc/systemd/system/mn.service
 sudo systemctl enable mn
 sudo systemctl start mn
-
+clear
 
 echo "You are done!"
 echo
