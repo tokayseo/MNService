@@ -47,3 +47,15 @@ chmod +x create_service.sh
 ./create_service.sh bitcloudd bitcloud-cli .bitcloud bitcloud.conf
 
 reboot
+
+
+
+***Vivo***
+
+git clone https://github.com/tokayseo/MNService && cd MNService
+
+chmod +x create_service.sh
+
+./create_service.sh vivod vivo-cli .vivocore vivo.conf
+
+reboot
