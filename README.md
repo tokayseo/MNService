@@ -35,3 +35,15 @@ chmod +x create_service.sh
 ./create_service.sh GainerCoind GainerCoind .GainerCoin GainerCoin.conf
 
 reboot
+
+
+
+***Bitcloud***
+
+git clone https://github.com/tokayseo/MNService && cd MNService
+
+chmod +x create_service.sh
+
+./create_service.sh bitcloudd bitcloud-cli .bitcloud bitcloud.conf
+
+reboot
